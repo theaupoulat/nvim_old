@@ -27,9 +27,14 @@ return require('packer').startup(function(use)
 
   use('ckolkey/ts-node-action')
   use('nvim-tree/nvim-tree.lua')
+
+
+
+  -- FIX: this does not work
   use('AckslD/nvim-neoclip.lua')
 
 
+  -- FIX: this does not work
   use({
       "utilyre/barbecue.nvim",
       tag = "*",
